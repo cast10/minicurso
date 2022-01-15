@@ -20,7 +20,7 @@ pegarPersonagem = () => {
             "Content-type": 'application/json'
         } 
     }).then((response) => response.json()).then((data) => {
-        imagem.src = data.imagem;
+        imagem.src = data.image;
         imagem.alt = data.name;
         nomeDoPersonagem.innerHTML = data.name;
         especie.innerHTML = data.species;
@@ -31,5 +31,5 @@ pegarPersonagem = () => {
 botao.onclick = pegarPersonagem;
 
 
-} 
+
 
