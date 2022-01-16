@@ -1,0 +1,16 @@
+body {
+    background-image: linear-gradient(
+        180deg,
+        #36af68 5%, 
+        #18f1f1 20%,
+        #191a1a 60%,
+        #00d19d 95%
+    );
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    position: relative;
+
+
+}
