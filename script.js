@@ -1,6 +1,8 @@
-
-
-
+const imagem = document.querySelector('img');
+const botao = document.querySelector ('#botao');
+const nomeDoPersonagem = document.querySelector('#nome');
+const especie = document.querySelector('#especie');
+const condicao = document.querySelector('#status');
 
 
 
@@ -12,7 +14,6 @@ gerarvalorAleatorio =() => {
 
 pegarPersonagem = () => {
     let numeroAleatorio = gerarvalorAleatorio();
-    
     return fetch(`https://rickandmortyapi.com/api/character/${numeroAleatorio}`, {
         method:'GET',
         headers:{
