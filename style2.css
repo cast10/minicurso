@@ -1,27 +1,27 @@
 body {
     background-image: linear-gradient(
-        180deg,
-        #36af68 5%, 
-        #18f1f1 20%,
-        #191a1a 60%,
-        #00d19d 95%
+      180deg,
+      #43c510 5%,
+      #96da7c 20%,
+      #1c722f 60%,
+      #00d1502d 95%
     );
     align-items: center;
     display: flex;
     height: 100vh;
     justify-content: center;
     position: relative;
-}
-
-main>section img {
-    display: block;
-    margin-left: 20;
-    margin-right: 25;
-    width: 50%;
-}
-
-main>section button{
-    background-color:  #0cb68b;
+  }
+  
+  
+  #botao-container {
+    margin-top: 10px;
+    text-align: center;
+    
+  }
+  
+  main > div#botao-container button {
+    background-color: #00d1502d;
     border: none;
     border-radius: 4;
     color: black;
@@ -30,16 +30,40 @@ main>section button{
     font-weight: 500;
     letter-spacing: -0.6px;
     line-height: 12px;
-    padding: 9px 23px;
     text-transform: uppercase;
-
-}
-#detalhes-container{
+    padding: 9px 23px;
+    
+  }
+  
+  
+  #detalhes-container {
+    font-weight: bold;
+    list-style: none;
+    padding: 0px;
+  }
+  
+  #personagens-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  #personagens-container div {
+    padding: 15px;
+  }
+  
+  #personagem-imagem-1,
+  #personagem-imagem-2,
+  #personagem-imagem-3 {
+    max-width: 140px;
+  }
+  #detalhes-container{
     font-weight: bold;
     list-style: none;
     width: 90%;
     
 }
+
 #detalhes-container > li {
     align-items: baseline;
     display:flex;

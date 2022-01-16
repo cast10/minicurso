@@ -3,7 +3,8 @@ const botao = document.querySelector ('#botao');
 const nomeDoPersonagem = document.querySelector('#nome');
 const especie = document.querySelector('#especie');
 const condicao = document.querySelector('#status');
-const nomeDoPersonagem1 = document.querySelector('#nome');
+const diving = document.querySelector ('#myImage');
+
 
 
 gerarvalorAleatorio =() => {
